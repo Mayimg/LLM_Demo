@@ -1,0 +1,12 @@
+/myenv
+/.vscode
+/__pycache__
+
+# JSONLファイル
+*.jsonl
+
+# Zone.Identifierファイル
+*:Zone.Identifier
+
+Classes.py
+Tokenizer.py
