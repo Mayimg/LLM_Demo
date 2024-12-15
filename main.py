@@ -224,7 +224,7 @@ for iter in tqdm(range(max_iters)) :
             idx = model.generate(context.unsqueeze(0), block_size)
             out_text = tokenizer.decode(idx[0].tolist())
 
-            print("Context: ", out_text.split("<SUMMARY>")[0])
+            # print("Context: ", out_text.split("<SUMMARY>")[0])
             print("Generated: ", out_text.split("<SUMMARY>")[1].split("<EOS>")[0])
 
         
